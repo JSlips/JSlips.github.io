@@ -1,0 +1,83 @@
+/* BODY */
+
+body {
+    background-color: #ECE8E1;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* header */
+
+#valorats-logo-test {
+    width: 6.25in;
+    height: 1.112in;
+    margin-top: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #0F1722;
+    /* margin-right: 30px; */
+}
+
+#valorats-logo {
+    /* margin-right: 15px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 75px;
+    height: 60px; */
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#valorats-title {
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #FF4655;
+    text-decoration: none;
+    display: none;
+}
+
+
+/* NAV */
+
+#heading {
+    background-color: #0F1722;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* MEDIA Q */
+
+@media screen and (max-width: 870px) and (min-width: 600px) {
+    header #valorats-logo-test {
+        display: none;
+    }
+    #valorats-title {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    header #valorats-logo-test {
+        display: none;
+    }
+}

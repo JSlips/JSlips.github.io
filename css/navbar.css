@@ -1,0 +1,33 @@
+nav {
+    background-color: #0F1722;
+    float: right;
+}
+
+#navbarDropdownMenuLink,
+#home,
+#nav-item,
+.dropdown-item {
+    color: #FF4655;
+    font-weight: bold;
+}
+
+#home:hover,
+#navbarDropdownMenuLink:hover,
+#nav-item:hover {
+    background-color: #ECE8E1;
+    color: #0F1722;
+}
+
+.dropdown-menu {
+    background-color: #0F1722;
+}
+
+#navbarDropdownMenuLink {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 870px) and (min-width: 600px) {
+    nav {
+        padding-top: 18px;
+    }
+}

@@ -1,0 +1,62 @@
+.post-heading {
+    border-bottom: #0F1722 3px solid;
+}
+
+.post-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.post-content {
+    margin-top: 30px;
+    font-size: large
+}
+
+.post-content h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.post img {
+    margin-bottom: 25px;
+}
+
+.underlineme {
+    text-decoration: underline;
+}
+
+.boldme {
+    font-weight: bold;
+}
+
+
+/* .post-content img, #ttqs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} */
+
+#ttqs {
+    margin-left: 35%;
+}
+
+
+/* MEDIA Q */
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #ttqs {
+        margin-left: 1px;
+        /* border: 1px solid rebeccapurple; */
+    }
+    main img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 10px solid red; */
+    }
+}

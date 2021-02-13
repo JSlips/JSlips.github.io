@@ -1,0 +1,20 @@
+img {
+    margin: auto;
+    display: block;
+    align-content: center;
+}
+
+
+/* MEDIA Q */
+
+
+/* @media screen and (max-width: 600px) {
+    #brimstonepage img {
+        margin-left: 15em;
+    }
+    main h2,
+    p {
+        text-align: center;
+        padding-top: 15px;
+    }
+} */
